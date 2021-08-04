@@ -17,7 +17,6 @@ android_app {
     optimize: {
         proguard_flags_files: ["proguard.cfg"],
     },
-    product_specific: true,
     privileged: true,
     platform_apis: true,
     certificate: "platform",
